@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CSR</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>CSR - Lista de Usuários</h1>
+    <p class="muted">Renderização no cliente (HTML básico + JS carrega e monta a UI)</p>
+  </header>
+
+  <main class="container">
+    <div class="toolbar">
+      <input id="search" type="search" placeholder="Buscar por nome, e-mail ou cargo..." />
+      <span id="status" class="status">Carregando…</span>
+    </div>
+
+    <ul id="user-list" class="card-list"></ul>
+
+    <div class="pager">
+      <button id="prev" class="btn" disabled>Anterior</button>
+      <span id="page-info" class="muted"></span>
+      <button id="next" class="btn">Próxima</button>
+    </div>
+  </main>
+
+  <dialog id="user-modal">
+    <div class="modal">
+      <button id="close-modal" class="btn close">✕</button>
+      <h3 id="m-name"></h3>
+      <p id="m-email" class="detail"></p>
+      <p id="m-role" class="detail"></p>
+    </div>
+  </dialog>
+
+  <template id="user-item">
+    <li class="card user-card" data-id="">
+      <h3 class="title"></h3>
+      <p class="detail email"></p>
+      <p class="detail role"></p>
+      <button class="btn outline see-more">Ver detalhes</button>
+    </li>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
