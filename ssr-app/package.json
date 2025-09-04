@@ -1,0 +1,14 @@
+{
+  "name": "ssr-app",
+  "version": "1.0.0",
+  "description": "SSR demo with Express + EJS",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}

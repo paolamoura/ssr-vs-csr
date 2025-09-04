@@ -1,0 +1,8 @@
+[
+  { "id": 1, "name": "Ana Souza",   "email": "ana@example.com",   "role": "Designer" },
+  { "id": 2, "name": "Bruno Lima",  "email": "bruno@example.com", "role": "Frontend" },
+  { "id": 3, "name": "Carla Nunes", "email": "carla@example.com", "role": "Backend" },
+  { "id": 4, "name": "Diego Alves", "email": "diego@example.com", "role": "Data" },
+  { "id": 5, "name": "Ellen Prado", "email": "ellen@example.com", "role": "PM" },
+  { "id": 6, "name": "Felipe Dias", "email": "felipe@example.com","role": "DevOps" }
+]
