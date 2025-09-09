@@ -1,8 +1,0 @@
-[
-  { "id": 1, "name": "Axl Rose",   "email": "axl@example.com",   "role": "Designer" },
-  { "id": 2, "name": "Lana del Rey",  "email": "lana@example.com", "role": "Frontend" },
-  { "id": 3, "name": "Fagner", "email": "fagner@example.com", "role": "Backend" },
-  { "id": 4, "name": "Pabllo Vittar", "email": "pabllo@example.com", "role": "Data" },
-  { "id": 5, "name": "Joao Gomes", "email": "joao@example.com", "role": "PM" },
-  { "id": 6, "name": "Charli xcx", "email": "charli@example.com","role": "DevOps" }
-]
